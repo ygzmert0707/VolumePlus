@@ -11,6 +11,8 @@ A C# / WPF desktop app for Windows that adjusts playback gain through a separate
 
 ## Run
 
+**[Download Volume + for Windows x64](https://github.com/ygzmert0707/VolumePlus/releases/latest)**. In the release's Assets, choose `VolumePlus-v1.2.4-win-x64.zip`; the `Source code` archives are for building the app yourself.
+
 Extract the complete Windows x64 release ZIP into a folder, then open `VolumePlus.exe`. Keep the included license and notice files with the app. The self-contained build includes .NET; no separate .NET installation is needed. On first launch, review and accept the terms for the bundled Microsoft runtime components to continue.
 
 For amplification, first install Equalizer APO from its official project. Volume + does not install the audio driver.
@@ -78,6 +80,8 @@ Windows'ta ses kazancını ayarlayan C# / WPF uygulaması. Gerçek yükseltme i�
 - Uygulamayı normal biçimde kapattığınızda Volume +'ın ek kazancı **%100 / 0 dB** olur. Mevcut EQ ve Windows ses düzeyi korunur.
 
 ## Çalıştırma
+
+**[Windows x64 için Volume + indir](https://github.com/ygzmert0707/VolumePlus/releases/latest)**. Sürümün Assets bölümünden `VolumePlus-v1.2.4-win-x64.zip` dosyasını seçin; `Source code` arşivleri uygulamayı kendiniz derlemek içindir.
 
 Windows x64 sürümünün ZIP dosyasını bir klasöre tamamen çıkarıp `VolumePlus.exe` dosyasını açın. Paketteki lisans ve bildirim dosyalarını uygulamanın yanında tutun. Hazır sürüm .NET içerir; ayrıca .NET kurmanız gerekmez. İlk açılışta paketteki Microsoft çalışma zamanı bileşenlerinin koşullarını okuyup kabul ederek devam edin.
 
