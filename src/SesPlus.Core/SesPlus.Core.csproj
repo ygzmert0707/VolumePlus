@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Copyright>Copyright (c) 2026 Volume + contributors</Copyright>
+    <Copyright>Copyright (c) 2026 Yagiz Mert</Copyright>
     <Product>Volume + Core</Product>
     <Title>Volume + Core</Title>
   </PropertyGroup>

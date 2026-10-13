@@ -16,7 +16,7 @@
     <RuntimeFrameworkVersion>10.0.12</RuntimeFrameworkVersion>
     <TargetLatestRuntimePatch>false</TargetLatestRuntimePatch>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Copyright>Copyright (c) 2026 Volume + contributors</Copyright>
+    <Copyright>Copyright (c) 2026 Yagiz Mert</Copyright>
     <Description>A multilingual system volume booster for Windows.</Description>
   </PropertyGroup>
   <ItemGroup>
