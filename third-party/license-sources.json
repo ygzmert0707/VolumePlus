@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-10-13",
+  "runtime": {
+    "version": "10.0.12",
+    "runtime_identifier": "win-x64",
+    "repository_url": "https://github.com/dotnet/dotnet",
+    "repository_revision": "95017c711e6afc1085133d440e42b4bd78155701",
+    "packages": [
+      {
+        "name": "microsoft.netcore.app.runtime.win-x64.10.0.12.nupkg",
+        "sha256": "0f63dee7ca4383cb16848966f81e439399e2058e1671ebe27e5eaf4b200e8691"
+      },
+      {
+        "name": "microsoft.windowsdesktop.app.runtime.win-x64.10.0.12.nupkg",
+        "sha256": "68bce56d2402969d82ac77fbd2b2a54f55fda86ea060366e6ddb832353dab80a"
+      }
+    ]
+  },
+  "notes": [
+    "Ses+ source code has its own LICENSE. The documents listed here retain the separate licenses of bundled third-party software.",
+    "The Windows binary mapping document assigns the .NET Library and Windows SDK licenses to certain runtime binaries, in addition to the general MIT license and third-party notices.",
+    "The Windows SDK text includes the French Quebec clauses and its EULA identifier. The .NET Library text includes all 12 sections and regional variations.",
+    "Equalizer APO is installed separately and is not distributed in the Ses+ runtime package."
+  ],
+  "files": [
+    {
+      "path": "third-party/dotnet/LICENSE.txt",
+      "component": ".NET runtime",
+      "version": "10.0.12",
+      "license": "MIT",
+      "source_url": "https://www.nuget.org/packages/Microsoft.NETCore.App.Runtime.win-x64/10.0.12",
+      "source_file": "LICENSE.TXT",
+      "repository_revision": "95017c711e6afc1085133d440e42b4bd78155701",
+      "content_form": "unmodified package file",
+      "retrieved_on": "2026-10-13",
+      "sha256": "d7a68596ab69b06f51ca278a6545148e4269a9381c26d597c13df5d88e08cf5b"
+    },
+    {
+      "path": "third-party/dotnet/THIRD-PARTY-NOTICES.txt",
+      "component": ".NET runtime bundled third-party components",
+      "version": "10.0.12",
+      "license": "multiple; see notice file",
+      "source_url": "https://www.nuget.org/packages/Microsoft.NETCore.App.Runtime.win-x64/10.0.12",
+      "source_file": "THIRD-PARTY-NOTICES.TXT",
+      "repository_revision": "95017c711e6afc1085133d440e42b4bd78155701",
+      "content_form": "unmodified package file",
+      "retrieved_on": "2026-10-13",
+      "sha256": "6d15e10a101c6bfff2ab4429ed061bf76c456fc4b23ad6b03e0d0f8377148a21"
+    },
+    {
+      "path": "third-party/wpf/LICENSE.txt",
+      "component": "Windows Desktop / WPF runtime",
+      "version": "10.0.12",
+      "license": "MIT",
+      "source_url": "https://www.nuget.org/packages/Microsoft.WindowsDesktop.App.Runtime.win-x64/10.0.12",
+      "source_file": "LICENSE",
+      "repository_revision": "95017c711e6afc1085133d440e42b4bd78155701",
+      "content_form": "unmodified package file",
+      "retrieved_on": "2026-10-13",
+      "sha256": "a89886665765362eb77e0f8e26602c924520041d1711b2eedc136434fe4d01ab"
+    },
+    {
+      "path": "third-party/wpf/THIRD-PARTY-NOTICES.txt",
+      "component": "WPF bundled third-party components",
+      "version": "10.0.12",
+      "license": "multiple; see notice file",
+      "source_url": "https://raw.githubusercontent.com/dotnet/dotnet/95017c711e6afc1085133d440e42b4bd78155701/src/wpf/THIRD-PARTY-NOTICES.TXT",
+      "source_file": "src/wpf/THIRD-PARTY-NOTICES.TXT",
+      "repository_revision": "95017c711e6afc1085133d440e42b4bd78155701",
+      "content_form": "unmodified upstream file",
+      "retrieved_on": "2026-10-13",
+      "sha256": "d23dba2fee20c6b59d8f7088ee9ed372459c952a319b7ca90f3eec370cc76eb9"
+    },
+    {
+      "path": "third-party/winforms/LICENSE.txt",
+      "component": "Windows Desktop / Windows Forms runtime",
+      "version": "10.0.12",
+      "license": "MIT",
+      "source_url": "https://www.nuget.org/packages/Microsoft.WindowsDesktop.App.Runtime.win-x64/10.0.12",
+      "source_file": "LICENSE",
+      "repository_revision": "95017c711e6afc1085133d440e42b4bd78155701",
+      "content_form": "unmodified package file",
+      "retrieved_on": "2026-10-13",
+      "sha256": "a89886665765362eb77e0f8e26602c924520041d1711b2eedc136434fe4d01ab"
+    },
+    {
+      "path": "third-party/winforms/THIRD-PARTY-NOTICES.txt",
+      "component": "Windows Forms bundled third-party components",
+      "version": "10.0.12",
+      "license": "multiple; see notice file",
+      "source_url": "https://raw.githubusercontent.com/dotnet/dotnet/95017c711e6afc1085133d440e42b4bd78155701/src/winforms/THIRD-PARTY-NOTICES.TXT",
+      "source_file": "src/winforms/THIRD-PARTY-NOTICES.TXT",
+      "repository_revision": "95017c711e6afc1085133d440e42b4bd78155701",
+      "content_form": "unmodified upstream file",
+      "retrieved_on": "2026-10-13",
+      "sha256": "5a412b38efae0b162dc0893b319023f4cd14a8985a0f9f9ae01ac052b37a36eb"
+    },
+    {
+      "path": "third-party/microsoft/DOTNET-LIBRARY-LICENSE.html",
+      "component": "Selected .NET/WPF native runtime files and single-file embedded runtime",
+      "license": "Microsoft .NET Library License",
+      "source_url": "https://dotnet.microsoft.com/en-us/dotnet_library_license.htm",
+      "content_form": "unmodified official HTML",
+      "retrieved_on": "2026-10-13",
+      "sha256": "0f69be2c8ac44c3980047664c3347ff22cba5842dc9d8b0a88a4f0914645a780"
+    },
+    {
+      "path": "third-party/microsoft/DOTNET-LIBRARY-LICENSE.txt",
+      "component": "Selected .NET/WPF native runtime files and single-file embedded runtime",
+      "license": "Microsoft .NET Library License",
+      "source_url": "https://dotnet.microsoft.com/en-us/dotnet_library_license.htm",
+      "content_form": "complete text extracted from preserved official HTML; paragraph and whitespace formatting normalized",
+      "derived_from": "third-party/microsoft/DOTNET-LIBRARY-LICENSE.html",
+      "retrieved_on": "2026-10-13",
+      "sha256": "0e9802efe623790f95a85528faeb68f261c7ff62a030a72e864ec06d3c25ae7c"
+    },
+    {
+      "path": "third-party/microsoft/WINDOWS-SDK-LICENSE.html",
+      "component": "D3DCompiler_47_cor3.dll",
+      "license": "Microsoft Windows SDK License",
+      "source_url": "https://learn.microsoft.com/en-us/legal/windows-sdk/license",
+      "repository_revision": "2a6eedbea47a744f385794ac3d3e8b2cf721b611",
+      "content_form": "unmodified official HTML",
+      "retrieved_on": "2026-10-13",
+      "sha256": "bb0a839f46da88809644721df481328d05fdb04869836a2fba4632cefe0a36d6"
+    },
+    {
+      "path": "third-party/microsoft/WINDOWS-SDK-LICENSE.md",
+      "component": "D3DCompiler_47_cor3.dll",
+      "license": "Microsoft Windows SDK License",
+      "source_url": "https://learn.microsoft.com/en-us/legal/windows-sdk/license?accept=text/markdown",
+      "repository_revision": "2a6eedbea47a744f385794ac3d3e8b2cf721b611",
+      "content_form": "unmodified official Markdown including document metadata",
+      "retrieved_on": "2026-10-13",
+      "sha256": "0b0f3f06e59fbf03e9b18e9688a90366ea26d9f95c3d82b302f97b1680b1199b"
+    },
+    {
+      "path": "third-party/microsoft/WINDOWS-SDK-LICENSE.txt",
+      "component": "D3DCompiler_47_cor3.dll",
+      "license": "Microsoft Windows SDK License",
+      "source_url": "https://learn.microsoft.com/en-us/legal/windows-sdk/license",
+      "repository_revision": "2a6eedbea47a744f385794ac3d3e8b2cf721b611",
+      "content_form": "complete text extracted from preserved official HTML; paragraph and whitespace formatting normalized",
+      "derived_from": "third-party/microsoft/WINDOWS-SDK-LICENSE.html",
+      "retrieved_on": "2026-10-13",
+      "sha256": "887fae618380defade07c6464a32d592bcaacd421f4d98c48ec8f6245c9b8af5"
+    },
+    {
+      "path": "third-party/microsoft/license-information-windows.md",
+      "component": ".NET Windows binary license mapping",
+      "license": "informational index, not a license",
+      "source_url": "https://raw.githubusercontent.com/dotnet/core/main/license-information-windows.md",
+      "content_form": "unmodified upstream file; main branch snapshot pinned by SHA256",
+      "retrieved_on": "2026-10-13",
+      "sha256": "3bdf7142d570f11780d1a5fcb6cbe47f5cf4a15bc634acf8db93fe3be8837119"
+    }
+  ]
+}

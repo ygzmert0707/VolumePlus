@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>VolumePlus</AssemblyName>
+    <Product>Volume +</Product>
+    <Title>Volume +</Title>
+    <AssemblyTitle>Volume +</AssemblyTitle>
+    <RootNamespace>SesPlus</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets/volumeplus.ico</ApplicationIcon>
+    <Version>1.2.4</Version>
+    <RuntimeFrameworkVersion>10.0.12</RuntimeFrameworkVersion>
+    <TargetLatestRuntimePatch>false</TargetLatestRuntimePatch>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright (c) 2026 Volume + contributors</Copyright>
+    <Description>A multilingual system volume booster for Windows.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../SesPlus.Core/SesPlus.Core.csproj" />
+    <AssemblyMetadata Include="BundledMicrosoftRuntime" Value="$(SelfContained)" />
+    <Resource Include="Assets/volumeplus-icon.png" />
+    <Resource Include="Assets/volumeplus.ico" />
+    <EmbeddedResource Include="../../LICENSE" LogicalName="SesPlus.Legal.LICENSE" />
+    <EmbeddedResource Include="../../third-party/**/*" LogicalName="SesPlus.Legal.%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

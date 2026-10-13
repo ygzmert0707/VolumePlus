@@ -1,0 +1,14 @@
+<Window x:Class="SesPlus.CustomPercentageDialog" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Icon="pack://application:,,,/Assets/volumeplus.ico" Width="540" SizeToContent="Height" MaxHeight="780" ResizeMode="NoResize" Background="#111823" Foreground="#F0F3F8" ShowInTaskbar="False" WindowStartupLocation="CenterOwner" FontFamily="Segoe UI">
+  <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+    <StackPanel Margin="26,24">
+      <TextBlock x:Name="DialogHeading" FontSize="23" FontWeight="SemiBold" TextWrapping="Wrap" />
+      <TextBlock x:Name="DialogDescription" Foreground="{StaticResource MutedBrush}" FontSize="12" TextWrapping="Wrap" Margin="0,10,0,22" />
+      <TextBlock x:Name="ValueLabel" FontSize="11" FontWeight="SemiBold" Foreground="{StaticResource MutedBrush}" Margin="0,0,0,8" />
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions><TextBox x:Name="ValueInput" TextChanged="InputChanged" FontSize="32" Padding="12,9" Background="#202938" Foreground="#F0F3F8" BorderBrush="#465166" BorderThickness="1" CaretBrush="#D3F585" SelectionBrush="#506D37" MaxLength="10" /><TextBlock Grid.Column="1" Text="%" FontSize="26" VerticalAlignment="Center" Margin="12,0,0,0" Foreground="{StaticResource MutedBrush}" /></Grid>
+      <TextBlock x:Name="InvalidMessage" Foreground="#FF9999" FontSize="12" TextWrapping="Wrap" Visibility="Collapsed" Margin="0,8,0,0" />
+      <Border Background="#302A20" BorderBrush="#66563A" BorderThickness="1" CornerRadius="12" Padding="16" Margin="0,20,0,14"><StackPanel><TextBlock x:Name="WarningHeading" Foreground="#F4C978" FontWeight="SemiBold" FontSize="14" /><TextBlock x:Name="WarningDescription" Foreground="#E5D3B0" TextWrapping="Wrap" FontSize="13" Margin="0,8,0,0" /></StackPanel></Border>
+      <CheckBox x:Name="Acknowledgement" Checked="AcknowledgementChanged" Unchecked="AcknowledgementChanged" Margin="0,0,0,18" Foreground="#F0F3F8"><TextBlock x:Name="AcknowledgementText" TextWrapping="Wrap" FontSize="12" MaxWidth="435" /></CheckBox>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition /><ColumnDefinition Width="12" /><ColumnDefinition Width="Auto" /></Grid.ColumnDefinitions><Button x:Name="AcceptButton" Click="ApplyClicked" IsDefault="True" Background="{StaticResource AccentBrush}" Foreground="#172019" BorderThickness="0" /><Button Grid.Column="2" x:Name="CancelButton" IsCancel="True" /></Grid>
+    </StackPanel>
+  </ScrollViewer>
+</Window>
