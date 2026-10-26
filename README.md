@@ -8,7 +8,8 @@ A C# / WPF desktop app for Windows that adjusts playback gain through a separate
 - **Custom percentage**: enter a positive whole number, including values above 200%. Values at or above 200% require acknowledgement of the distortion warning.
 - Seven interface languages: **English, Türkçe, Español, Français, Português, Bahasa Indonesia, Deutsch**. The app starts in English and saves your language choice.
 - Normal app exit restores the additional Volume + gain to **100% / 0 dB**. Existing EQ settings and Windows master volume are preserved.
-
+- Volume + was developed with AI assistance.
+  
 ## Run
 
 **[Download Volume + for Windows x64](https://github.com/ygzmert0707/VolumePlus/releases/latest)**. In the release's Assets, choose `VolumePlus-v1.2.4-win-x64.zip`; the `Source code` archives are for building the app yourself.
@@ -78,7 +79,8 @@ Windows'ta ses kazancını ayarlayan C# / WPF uygulaması. Gerçek yükseltme i�
 - **Özel yüzde** ile 0'dan büyük bir tam sayı girebilirsiniz. %200 ve üstünde ses bozulması uyarısını onaylamanız gerekir.
 - **English, Türkçe, Español, Français, Português, Bahasa Indonesia, Deutsch** dil seçenekleri vardır. İlk açılış İngilizcedir; dil tercihiniz kaydedilir.
 - Uygulamayı normal biçimde kapattığınızda Volume +'ın ek kazancı **%100 / 0 dB** olur. Mevcut EQ ve Windows ses düzeyi korunur.
-
+- Volume +, yapay zekâ (AI) desteğiyle geliştirilmiştir.
+  
 ## Çalıştırma
 
 **[Windows x64 için Volume + indir](https://github.com/ygzmert0707/VolumePlus/releases/latest)**. Sürümün Assets bölümünden `VolumePlus-v1.2.4-win-x64.zip` dosyasını seçin; `Source code` arşivleri uygulamayı kendiniz derlemek içindir.
